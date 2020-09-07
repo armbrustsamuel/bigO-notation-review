@@ -74,30 +74,36 @@ int main(){
 ```c++
 void printFirstItem(const vector<int>& items)
 {
-    cout << items[0] << endl;
+    cout << items[0] << endl;       // 1
 }
+// 1 ==> O(1)
 ```
 
 ## O(n)
 ```c++
 void printAllItems(const vector<int>& items)
 {
-    for (int item : items) {
-        cout << item << endl;
+    for (int item : items) {        // n+1
+        cout << item << endl;       // n
     }
 }
+
+//  n+1 + n
+// 2n + 1 ==> O(n)
 ```
 
 ## O(n^2)
 ```c++
 void printAllPossibleOrderedPairs(const vector<int>& items)
 {
-    for (int firstItem : items) {
-        for (int secondItem : items) {
-            cout << firstItem << ", " << secondItem << endl;
+    for (int firstItem : items) {           // n+1
+        for (int secondItem : items) {      // n * n = n^2
+            cout << firstItem << ", " << secondItem << endl; // n^2
         }
     }
 }
+// n+1 + n^2 + n^2
+// 2n^2 + n + 1 ==> O(n^2)
 ```
 
 ## Big O Notation cheat sheet
