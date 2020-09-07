@@ -127,4 +127,4 @@ Factorial(n) simply calculates n!. If n is 8, this algorithm will run `8! = 4032
 
 > Big O is what is known as an asymptotic function.
 - Big O is useful to determine performance of an algorithm at its limit.
-- It considers the worse case
+- It considers the worst case
