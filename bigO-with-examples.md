@@ -2,6 +2,8 @@
 
 Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.
 
+`Disclamer`: The present study has been based on a DeveloperInsider page and the most part is replicated from there. Some small intepretation will be added but in general it is only for review purpose and for my personal lib.
+
 [Source](https://developerinsider.co/big-o-notation-explained-with-examples/)
 
 ## O(1) - constant time
